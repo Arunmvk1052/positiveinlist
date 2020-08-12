@@ -1,0 +1,4 @@
+list1=[1,-5,-6,7,9]
+print("the list",list1)
+newlist=list(filter(lambda x:x>0,list1))
+print("the new list",newlist)
